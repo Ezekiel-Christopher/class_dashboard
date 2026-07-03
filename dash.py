@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from classwork import product_category
 
 df = pd.read_csv("sales data.csv")
 df["total"]= df["Quantity_Sold"] * df["Sales_Amount"]
